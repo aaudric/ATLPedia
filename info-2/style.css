@@ -1,0 +1,526 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+} 
+  /* Header */
+  
+  header {
+    background-color: #161616;
+    color: #fff;
+    padding: 20px;
+  }
+    
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #313131;
+    color: #ffffff;
+  }
+
+  button {
+    margin: 0 20px;
+    font-size: 18px;
+    color: white;
+    padding: 9px 25px;
+    background-color: rgb(68, 68, 68); 
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+ }
+
+  button:hover {
+    background-color: rgb(24, 24, 24);
+ }
+
+  @media screen and (max-width: 1000px) {
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+  }
+
+  /* Main Section */
+  
+  #main {
+    height: 480px;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .main-content {
+    padding-top: 15px;
+    margin: 0 auto;
+    display: flex;
+    max-width: 2000px;
+    width: 100%;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  img {
+    height: 450px;
+    width: 420px;
+  }
+
+  img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+
+  }
+
+  @media (max-width: 800px) {
+    .main-content {
+        margin: 0 auto;
+        display: flex;
+        max-width: 1200px;
+        width: 100%;
+        justify-content: center;
+        overflow-x: scroll;
+      }
+    
+      .main-content::-webkit-scrollbar{
+        width: 0;
+      }
+    
+    img {
+        height: 450px;
+        width: 420px;
+    }
+  }
+
+  /* Description */
+#description{
+    background: url(img/black-and-white-photo-of-atlanta-l-1.png) no-repeat center fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#description .container {
+    -webkit-backdrop-filter: blur(5px) brightness(100%);
+    backdrop-filter: blur(10px) brightness(100%);
+    background-color: #141414cc;
+    height: 400px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+#description h2{
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#description p{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Metro */
+#metro_bio{
+  background: url(img/black-and-white-photo-of-atlanta-l-1.png) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#metro_bio .metro_container{
+  -webkit-backdrop-filter: blur(5px) brightness(100%);
+  backdrop-filter: blur(10px) brightness(100%);
+}
+
+ .metro_p{
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  font-style:oblique ;
+  line-height: 1.7;
+  text-align: justify;
+}
+.metro_intro{
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  font-style:oblique ;
+  line-height: 1.7;
+  text-align: center;
+}
+#MetroVerse{
+  clear: right;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white;
+  font-style:oblique ;
+  line-height: 1.7;
+  text-align: justify;
+}
+ .metro_h1{
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.metro_h2{
+  margin-right: auto;
+  margin-left: auto;
+  text-decoration: underline;
+  text-align: center;
+  color: white;
+}
+
+#metro_bio .metro_sous-titre{
+  margin-top: 50px;
+  text-align: center;
+  color: lightgray;
+  margin-bottom: 50px;
+  clear: both;
+}
+
+.metro_ul .metro_li{
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.metro_img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  display: block;
+  height:300px;
+  width:300px;
+  object-fit: cover;
+}
+#metro_bio #MB21S{
+  float:right;
+  margin-left: 100px;
+  margin-right: 20px;
+  width: 270px;
+  height: 270px;
+}
+#metro_bio #MVerseimg{
+  width: 30%;
+  height: 30%;
+  margin-right: 40px;
+  margin-left: 30px;
+  float: left;
+}
+.SavageMode{
+  width: 30%;
+  height: 30%;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.metro_a{
+  color:white;
+  text-decoration: none;
+}
+
+
+  /* Offset */
+#offset{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+  #discography {
+    padding: 50px 0;
+  }
+  
+  #discography h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #discography .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .column {
+    width: 45%;
+  }
+  
+  .column h3 {
+    margin-bottom: 20px;
+  }
+  
+  .column ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .column li {
+    margin-bottom: 10px;
+  }
+  
+  #discography ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #discography a {
+    margin-left: 100px;
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    }
+    
+    #discography a:hover {
+    color: #f7f7f7;
+    }
+    
+    /* Features Section */
+    
+    #features {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+    }
+    
+    #features h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+    #features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    #features li {
+    margin-bottom: 10px;
+    }
+    
+    #features a {
+    color: #222;
+    text-decoration: none;
+    font-size: 1.2rem;
+    }
+    
+    #features a:hover {
+    color: #f7f7f7;
+    }
+    
+    @media (max-width: 768px) {
+    #hero {
+    height: 300px;
+    }
+    
+    .hero-content h1 {
+    font-size: 2.5rem;
+    }
+    
+    .tagline {
+    font-size: 1.2rem;
+    }
+    
+    #bio {
+    padding: 30px 0;
+    }
+    
+    #discography {
+    padding: 30px 0;
+    }
+    
+    #discography .row {
+    flex-direction: column;
+    }
+    
+    .column {
+    width: 100%;
+    }
+    
+    #discography ul {
+    justify-content: center;
+    }
+    
+    #discography li {
+    margin-right: 0;
+    margin-bottom: 10px;
+    }
+    
+    #discography a {
+    font-size: 1rem;
+    }
+    }
+
+    /* Gucci Mane*/
+div#div{
+      margin-left: 20px;
+      margin-top: 0;
+  }
+
+  p.a{
+    margin-left: 20px;
+      color: white;
+      font-style:none ;
+      line-height: 1.5;
+      text-align: justify;
+      font-size:large;
+
+  }
+  h1#audric{
+      margin-left: 20px;
+      text-align: center;
+      color: white;
+      margin-bottom: 50px;
+  }
+  h2.audric{
+      margin-left: 20px;
+      text-decoration: none;
+      color: white;
+  }
+  h2.audric+p{
+    margin-left: 20px;
+      padding-top: 20px;
+  }
+  h3.audr{
+    margin-left: 20px;
+      text-decoration: none;
+      color: white;
+  }
+  ul.au{
+      color: white;
+      
+  }
+  blockquote+h2.audric{
+    margin-left: 20px;
+      margin-top: 100px;   
+  }
+  #suc{
+      width: 90%;
+      text-align: justify;
+  }
+  .img{
+    margin-left: 20px;
+      margin-left: 20px;
+      height:400px;
+      width:500px;
+      object-fit: cover;
+      float:right;
+  }
+  #img2{
+      float: left;
+      border-radius: 50%;
+      shape-outside: margin-box;
+      width: 300px;
+      height: 150px;
+      margin-right: 10px;
+      margin-left: 5px;
+  }
+  #img2+p{
+      font-style: oblique;
+  }
+  .list-container {
+      color: white;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: none;
+      margin-left: 20px;
+
+    }
+    
+  .list {
+      flex-basis: calc(33.33% - 10px);
+      padding: 0;
+      margin-left: 10px;
+  }
+
+ 
+
+
+  /*Gunna*/
+
+h1#axel{
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+    }
+
+.img{
+  text-align: center;
+  height:400px;
+  width:500px;
+  object-fit: cover;
+  float:right;
+    }
+
+#style {
+      padding: 50px 0;
+    }
+    
+    #style h2 {
+      text-align: center;
+      color: white;
+    }
+
+    #style p {
+      text-align: center;
+      color: white;
+    }
+
+    #style img {
+      text-align: center;
+    }
+
+    #description ul {
+      justify-content: center;
+      color: white;
+    }
+      
+    #description li {
+      color: white;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+

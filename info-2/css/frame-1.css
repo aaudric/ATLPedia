@@ -1,0 +1,149 @@
+/* screen - frame-1 */
+
+.frame-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  width: 1192px;
+}
+
+.frame-1 .overlap-group {
+  height: 1219px;
+  position: relative;
+  width: 1192px;
+}
+
+.frame-1 .hd-wallpaper-offset-migos-1 {
+  height: 418px;
+  left: 596px;
+  object-fit: cover;
+  position: absolute;
+  top: 31px;
+  width: 414px;
+}
+
+.frame-1 .rectangle-1 {
+  background-color: #141414;
+  height: 109px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1192px;
+}
+
+.frame-1 .rectangle-2 {
+  background-color: var(--mine-shaft);
+  height: 47px;
+  left: 79px;
+  position: absolute;
+  top: 31px;
+  width: 169px;
+}
+
+.frame-1 .rectangle-5 {
+  background-color: var(--mine-shaft);
+  height: 47px;
+  left: 359px;
+  position: absolute;
+  top: 31px;
+  width: 169px;
+}
+
+.frame-1 .rectangle-6 {
+  background-color: var(--mine-shaft);
+  height: 47px;
+  left: 618px;
+  position: absolute;
+  top: 31px;
+  width: 169px;
+}
+
+.frame-1 .black-and-white-photo-of-atlanta-l-1 {
+  height: 631px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 449px;
+  width: 1192px;
+}
+
+.frame-1 .rectangle-4 {
+  -webkit-backdrop-filter: blur(10px) brightness(100%);
+  backdrop-filter: blur(10px) brightness(100%);
+  background-color: #141414cc;
+  height: 770px;
+  left: 0;
+  position: absolute;
+  top: 449px;
+  width: 1192px;
+}
+
+.frame-1 .title {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  left: 105px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 538px;
+  width: 451px;
+}
+
+.frame-1 .gucci {
+  left: 137px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 42px;
+  transform: rotate(-0.01deg);
+  width: 68px;
+}
+
+.frame-1 .metro {
+  left: 412px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 41px;
+  transform: rotate(-0.01deg);
+  width: 101px;
+}
+
+.frame-1 .offset {
+  left: 673px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 42px;
+  transform: rotate(-0.01deg);
+  width: 101px;
+}
+
+.frame-1 .metro-boomin-press-p {
+  height: 353px;
+  left: 255px;
+  position: absolute;
+  top: 102px;
+  width: 377px;
+}
+
+.frame-1 .gucci-22-2_0square-1 {
+  height: 340px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 109px;
+  width: 326px;
+}
+
+.frame-1 .gunna_background-1 {
+  height: 340px;
+  left: 916px;
+  object-fit: cover;
+  position: absolute;
+  top: 109px;
+  width: 276px;
+}

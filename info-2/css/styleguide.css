@@ -1,0 +1,17 @@
+:root { 
+  --black: #000000;
+  --mine-shaft: #333333;
+  --white: #ffffff;
+ 
+  --font-size-l: 40px;
+  --font-size-m: 20px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+}
+.inter-bold-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
